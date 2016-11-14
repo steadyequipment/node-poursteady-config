@@ -2,10 +2,11 @@
   "name": "poursteady-config",
   "version": "1.0.0",
   "description": "Poursteady's wrapping around the Node Command-Line-Args library with additional configuration file support",
-  "main": "index.jsx",
+  "main": "distribution/index.js",
   "scripts": {
     "start": "babel-node index.jsx",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel *.jsx --out-dir distribution"
   },
   "author": "Ian Grossberg <ian@poursteady.com>",
   "license": "MIT",
