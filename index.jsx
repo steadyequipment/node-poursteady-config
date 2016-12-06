@@ -5,7 +5,7 @@ import fs from 'fs';
 import _ from 'lodash';
 import path from 'path';
 
-const EnvironmentProduction = "production";
+// const EnvironmentProduction = "production";
 const EnvironmentDevelopment = "development";
 
 class Config {
